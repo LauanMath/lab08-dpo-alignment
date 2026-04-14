@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Ambientes virtuais
+.env
+.venv
+env/
+venv/
+
+# Outputs do treinamento (pesos, checkpoints)
+dpo_hhh_output/
+*.bin
+*.safetensors
+*.pt
+*.pth
+checkpoints/
+runs/
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
